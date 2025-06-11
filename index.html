@@ -1,0 +1,101 @@
+<!doctype html>
+<html class="no-js" lang="">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Weblyo</title>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link rel="stylesheet" href="/css/style.css">
+  <meta name="description" content="">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+  <meta property="og:image:alt" content="">
+  <link rel="stylesheet" href="/css/style.css" />
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.png">
+
+  <link rel="manifest" href="site.webmanifest">
+  <meta name="theme-color" content="#fafafa">
+</head>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>WebPulse</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+<header>
+  <h1>Weblyo</h1>
+  <p>Développement web sur-mesure & design moderne pour booster ta présence en ligne.</p>
+  <button class="btn-primary" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Contactez-moi</button>
+</header>
+
+<section id="about" class="container">
+  <h2>Pourquoi me choisir ?</h2>
+  <p class="lead">Je crée des sites web performants, esthétiques et adaptés à tes besoins. Approche agile,
+    communication claire, résultats garantis.</p>
+</section>
+
+<section id="services">
+  <div class="service-card">
+    <div class="service-icon">💻</div>
+    <h3 class="service-title">Création de sites vitrines</h3>
+    <p class="service-desc">Des sites modernes, responsives et optimisés SEO pour mettre en valeur ton activité.</p>
+  </div>
+  <div class="service-card">
+    <div class="service-icon">⚙️</div>
+    <h3 class="service-title">Maintenance & support</h3>
+    <p class="service-desc">Mises à jour régulières, sauvegardes et assistance rapide pour assurer la pérennité de ton site.</p>
+  </div>
+  <div class="service-card">
+    <div class="service-icon">🚀</div>
+    <h3 class="service-title">Optimisation & SEO</h3>
+    <p class="service-desc">Améliore ta visibilité sur Google grâce à un référencement naturel travaillé et efficace.</p>
+  </div>
+</section>
+
+<section id="portfolio" class="container">
+  <h2>Mes Réalisations</h2>
+  <div class="portfolio-grid">
+    <figure class="portfolio-item">
+      <img src="https://source.unsplash.com/400x300/?website,design" alt="Projet 1" />
+      <figcaption>Site vitrine PME</figcaption>
+    </figure>
+    <figure class="portfolio-item">
+      <img src="https://source.unsplash.com/400x300/?app,development" alt="Projet 2" />
+      <figcaption>Application Web sur-mesure</figcaption>
+    </figure>
+    <figure class="portfolio-item">
+      <img src="https://source.unsplash.com/400x300/?seo,marketing" alt="Projet 3" />
+      <figcaption>Optimisation SEO client</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="container">
+    <h2>Contact</h2>
+    <form action="/php/contact.php" method="POST">
+      <input type="text" name="nom" placeholder="Votre nom" required />
+      <input type="email" name="email" placeholder="Votre email" required />
+      <textarea name="message" placeholder="Votre message" required></textarea>
+      <button type="submit" class="btn">Envoyer</button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  &copy; 2025 WebPulse — Tous droits réservés
+</footer>
+
+</body>
+</html>
